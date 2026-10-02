@@ -1,0 +1,474 @@
+[
+  {
+    "chunk_id": "doc_b125793155ca67e9_c000",
+    "doc_id": "doc_b125793155ca67e9",
+    "filename": "customer_contracts_sla.txt",
+    "chunk_index": 0,
+    "content": "MASTER SERVICE AGREEMENT - SERVICE LEVEL ADDENDUM (SLA)\nDocument ID: LEGAL-SLA-2025\nApplicable Tier: Platinum & Enterprise Tier Customers 1. SYSTEM UPTIME GUARANTEE\nThe Service Provider guarantees monthly platform uptime of 99.95% (\"Uptime Commitment\"), excluding scheduled maintenance windows announced at least 72 hours in advance.",
+    "token_count": 55,
+    "metadata": {
+      "word_count": 254,
+      "lines_count": 29,
+      "filename": "customer_contracts_sla.txt",
+      "file_type": ".txt",
+      "chunk_size_chars": 333,
+      "total_chunks_in_doc": 5
+    }
+  },
+  {
+    "chunk_id": "doc_b125793155ca67e9_c001",
+    "doc_id": "doc_b125793155ca67e9",
+    "filename": "customer_contracts_sla.txt",
+    "chunk_index": 1,
+    "content": "2. SERVICE CREDIT CALCULATION\nIf platform uptime falls below the commitment during any calendar month, the Customer shall be entitled to the following SLA credits:\n- 99.0% to 99.94% Uptime: 10% credit of monthly billing fees.\n- 95.0% to 98.99% Uptime: 25% credit of monthly billing fees.\n- Below 95.0% Uptime: 50% credit of monthly billing fees and right to immediate contract termination without penalty. 3. INCIDENT RESPONSE TIERS & SEVERITY LEVELS",
+    "token_count": 90,
+    "metadata": {
+      "word_count": 254,
+      "lines_count": 29,
+      "filename": "customer_contracts_sla.txt",
+      "file_type": ".txt",
+      "chunk_size_chars": 450,
+      "total_chunks_in_doc": 5
+    }
+  },
+  {
+    "chunk_id": "doc_b125793155ca67e9_c002",
+    "doc_id": "doc_b125793155ca67e9",
+    "filename": "customer_contracts_sla.txt",
+    "chunk_index": 2,
+    "content": "3. INCIDENT RESPONSE TIERS & SEVERITY LEVELS - Severity 1 (Critical Outage - Platform Inaccessible):   * Initial Response Time: Under 15 minutes (24/7/365)   * Status Update Interval: Every 30 minutes   * Target Resolution Time: Under 4 hours - Severity 2 (Major Degradation - Core RAG Retrieval Impaired):   * Initial Response Time: Under 1 hour (24/7/365)   * Status Update Interval: Every 2 hours   * Target Resolution Time: Under 8 hours",
+    "token_count": 86,
+    "metadata": {
+      "word_count": 254,
+      "lines_count": 29,
+      "filename": "customer_contracts_sla.txt",
+      "file_type": ".txt",
+      "chunk_size_chars": 441,
+      "total_chunks_in_doc": 5
+    }
+  },
+  {
+    "chunk_id": "doc_b125793155ca67e9_c003",
+    "doc_id": "doc_b125793155ca67e9",
+    "filename": "customer_contracts_sla.txt",
+    "chunk_index": 3,
+    "content": "* Target Resolution Time: Under 8 hours - Severity 3 (Minor Defect - Administrative / Reporting UI Glitch):   * Initial Response Time: Under 4 business hours   * Target Resolution Time: Under 48 business hours",
+    "token_count": 42,
+    "metadata": {
+      "word_count": 254,
+      "lines_count": 29,
+      "filename": "customer_contracts_sla.txt",
+      "file_type": ".txt",
+      "chunk_size_chars": 209,
+      "total_chunks_in_doc": 5
+    }
+  },
+  {
+    "chunk_id": "doc_b125793155ca67e9_c004",
+    "doc_id": "doc_b125793155ca67e9",
+    "filename": "customer_contracts_sla.txt",
+    "chunk_index": 4,
+    "content": "* Target Resolution Time: Under 48 business hours 4. DATA PORTABILITY & TERMINATION\nUpon written notice of contract expiration or termination, Service Provider shall export all vectorized embeddings and raw customer documents in standard JSON/Parquet format within 14 business days.\nAll customer tenant data on primary databases will be permanently purged within 30 days of verified handoff.",
+    "token_count": 71,
+    "metadata": {
+      "word_count": 254,
+      "lines_count": 29,
+      "filename": "customer_contracts_sla.txt",
+      "file_type": ".txt",
+      "chunk_size_chars": 391,
+      "total_chunks_in_doc": 5
+    }
+  },
+  {
+    "chunk_id": "doc_25223dec50e8bc17_c000",
+    "doc_id": "doc_25223dec50e8bc17",
+    "filename": "enterprise_ai_policy.txt",
+    "chunk_index": 0,
+    "content": "# Global Enterprise AI Governance & Security Policy (v3.2)\nDocument ID: SEC-POL-2025-09\nClassification: Internal Confidential\nEffective Date: January 1, 2025\nReview Cycle: Annual 1. PURPOSE & SCOPE\nThis document outlines mandatory guidelines for utilizing Generative Artificial Intelligence (GenAI), Large Language Models (LLMs), and automated data retrieval systems across all company business units and engineering teams. 2. APPROVED LLM & API USAGE",
+    "token_count": 76,
+    "metadata": {
+      "word_count": 330,
+      "lines_count": 31,
+      "filename": "enterprise_ai_policy.txt",
+      "file_type": ".txt",
+      "chunk_size_chars": 451,
+      "total_chunks_in_doc": 7
+    }
+  },
+  {
+    "chunk_id": "doc_25223dec50e8bc17_c001",
+    "doc_id": "doc_25223dec50e8bc17",
+    "filename": "enterprise_ai_policy.txt",
+    "chunk_index": 1,
+    "content": "2. APPROVED LLM & API USAGE - All external API calls to public LLMs (e.g., OpenAI, Anthropic, Google Cloud Vertex AI) must route through the enterprise API Gateway proxy. - Direct connection from client devices or non-isolated VPCs to external model endpoints is strictly prohibited. - Zero Data Retention (ZDR) agreements must be active for all proprietary and customer-facing interactions.",
+    "token_count": 75,
+    "metadata": {
+      "word_count": 330,
+      "lines_count": 31,
+      "filename": "enterprise_ai_policy.txt",
+      "file_type": ".txt",
+      "chunk_size_chars": 391,
+      "total_chunks_in_doc": 7
+    }
+  },
+  {
+    "chunk_id": "doc_25223dec50e8bc17_c002",
+    "doc_id": "doc_25223dec50e8bc17",
+    "filename": "enterprise_ai_policy.txt",
+    "chunk_index": 2,
+    "content": "- Customer Personally Identifiable Information (PII) must be scrubbed using automated redaction pipelines prior to vector embedding generation.",
+    "token_count": 22,
+    "metadata": {
+      "word_count": 330,
+      "lines_count": 31,
+      "filename": "enterprise_ai_policy.txt",
+      "file_type": ".txt",
+      "chunk_size_chars": 143,
+      "total_chunks_in_doc": 7
+    }
+  },
+  {
+    "chunk_id": "doc_25223dec50e8bc17_c003",
+    "doc_id": "doc_25223dec50e8bc17",
+    "filename": "enterprise_ai_policy.txt",
+    "chunk_index": 3,
+    "content": "3. DATA CLASSIFICATION AND VECTOR STORAGE\n- Tier 1 (Public Data): Can be stored in shared vector indexes without tenant-level isolation.\n- Tier 2 (Internal Business Data): Must use role-based access control (RBAC) filtering at retrieval time.\n- Tier 3 (Strictly Confidential / PII): Must utilize encrypted vector databases with customer-managed encryption keys (CMEK) and strict database-level row access policies. 4. MODEL RETRIEVAL-AUGMENTED GENERATION (RAG) COMPLIANCE",
+    "token_count": 82,
+    "metadata": {
+      "word_count": 330,
+      "lines_count": 31,
+      "filename": "enterprise_ai_policy.txt",
+      "file_type": ".txt",
+      "chunk_size_chars": 471,
+      "total_chunks_in_doc": 7
+    }
+  },
+  {
+    "chunk_id": "doc_25223dec50e8bc17_c004",
+    "doc_id": "doc_25223dec50e8bc17",
+    "filename": "enterprise_ai_policy.txt",
+    "chunk_index": 4,
+    "content": "4. MODEL RETRIEVAL-AUGMENTED GENERATION (RAG) COMPLIANCE - All RAG responses must provide verbatim source citations referencing document ID, chunk index, and document title. - Retrieval queries must maintain an audit log in the centralized SQL telemetry database for a minimum retention period of 180 days.",
+    "token_count": 56,
+    "metadata": {
+      "word_count": 330,
+      "lines_count": 31,
+      "filename": "enterprise_ai_policy.txt",
+      "file_type": ".txt",
+      "chunk_size_chars": 306,
+      "total_chunks_in_doc": 7
+    }
+  },
+  {
+    "chunk_id": "doc_25223dec50e8bc17_c005",
+    "doc_id": "doc_25223dec50e8bc17",
+    "filename": "enterprise_ai_policy.txt",
+    "chunk_index": 5,
+    "content": "- Hallucination prevention: Any query whose top-k vector similarity score falls below 0.35 must trigger a fallback disclaimer: \"Insufficient enterprise context found to answer this query with high confidence.\" 5. EXPERIMENTATION AND PROMPT TRACKING\n- All production prompt changes, temperature adjustments, and chunking parameter alterations must be version-controlled and tracked in MLflow experiments.\n- Minimum acceptable retrieval recall metric for deployment to production is Recall@5 >= 0.85.",
+    "token_count": 83,
+    "metadata": {
+      "word_count": 330,
+      "lines_count": 31,
+      "filename": "enterprise_ai_policy.txt",
+      "file_type": ".txt",
+      "chunk_size_chars": 498,
+      "total_chunks_in_doc": 7
+    }
+  },
+  {
+    "chunk_id": "doc_25223dec50e8bc17_c006",
+    "doc_id": "doc_25223dec50e8bc17",
+    "filename": "enterprise_ai_policy.txt",
+    "chunk_index": 6,
+    "content": "6. CONTACTS & ESCALATIONS\nFor policy exceptions or new AI model onboarding, submit a ticket to security-governance@enterprise.internal or contact the Chief Information Security Officer (CISO).",
+    "token_count": 31,
+    "metadata": {
+      "word_count": 330,
+      "lines_count": 31,
+      "filename": "enterprise_ai_policy.txt",
+      "file_type": ".txt",
+      "chunk_size_chars": 192,
+      "total_chunks_in_doc": 7
+    }
+  },
+  {
+    "chunk_id": "doc_bc9f2909b38a48c0_c000",
+    "doc_id": "doc_bc9f2909b38a48c0",
+    "filename": "cloud_architecture_spec.md",
+    "chunk_index": 0,
+    "content": "# Multi-Region Enterprise Cloud Architecture Specification\nDocument ID: ARCH-SPEC-884\nArchitectural Status: Approved\nTarget Availability: 99.99% ## 1. Executive Summary\nThis document specifies the target state cloud infrastructure for our global SaaS platform supporting AI-driven document intelligence, real-time analytics, and transactional workloads across AWS and Google Cloud Platform.",
+    "token_count": 58,
+    "metadata": {
+      "word_count": 292,
+      "lines_count": 29,
+      "filename": "cloud_architecture_spec.md",
+      "file_type": ".md",
+      "chunk_size_chars": 390,
+      "total_chunks_in_doc": 5
+    }
+  },
+  {
+    "chunk_id": "doc_bc9f2909b38a48c0_c001",
+    "doc_id": "doc_bc9f2909b38a48c0",
+    "filename": "cloud_architecture_spec.md",
+    "chunk_index": 1,
+    "content": "## 2. Global Compute & Orchestration\n- **Kubernetes (EKS / GKE)**: Containerized microservices deployed across three active availability zones in us-east-1 and eu-west-1.\n- **Auto-scaling**: Horizontal Pod Autoscaler (HPA) configured based on custom CPU utilization (target 70%) and incoming queue depth.\n- **Inference Nodes**: Dedicated GPU worker node pools (NVIDIA L4 and A10G instances) for high-throughput batch embedding generation. ## 3. Storage and Database Tier",
+    "token_count": 81,
+    "metadata": {
+      "word_count": 292,
+      "lines_count": 29,
+      "filename": "cloud_architecture_spec.md",
+      "file_type": ".md",
+      "chunk_size_chars": 470,
+      "total_chunks_in_doc": 5
+    }
+  },
+  {
+    "chunk_id": "doc_bc9f2909b38a48c0_c002",
+    "doc_id": "doc_bc9f2909b38a48c0",
+    "filename": "cloud_architecture_spec.md",
+    "chunk_index": 2,
+    "content": "## 3. Storage and Database Tier - **Relational Data**: Amazon Aurora PostgreSQL with active read replicas and automated point-in-time recovery (PITR) up to 35 days. - **Vector Search Engine**: pgvector / Chroma hybrid index cluster with HNSW (Hierarchical Navigable Small World) indexing for sub-15ms vector retrieval. - **Cache Layer**: Redis Enterprise cluster with multi-AZ replication providing sub-millisecond retrieval for session caches and prompt template registries.",
+    "token_count": 81,
+    "metadata": {
+      "word_count": 292,
+      "lines_count": 29,
+      "filename": "cloud_architecture_spec.md",
+      "file_type": ".md",
+      "chunk_size_chars": 475,
+      "total_chunks_in_doc": 5
+    }
+  },
+  {
+    "chunk_id": "doc_bc9f2909b38a48c0_c003",
+    "doc_id": "doc_bc9f2909b38a48c0",
+    "filename": "cloud_architecture_spec.md",
+    "chunk_index": 3,
+    "content": "- **Blob Storage**: Object storage (S3 / GCS) configured with lifecycle policies archiving raw document uploads to cold storage after 90 days. ## 4. Latency SLAs and Network Topology\n- API gateway response latency: P95 < 120ms; P99 < 350ms.\n- End-to-end RAG query pipeline (retrieval + reranking + LLM first token latency): P95 < 1.8 seconds.\n- Cross-region database replication latency: < 500ms.\n- Cloudflare Enterprise CDN handles edge caching, DDoS mitigation, and SSL termination.",
+    "token_count": 95,
+    "metadata": {
+      "word_count": 292,
+      "lines_count": 29,
+      "filename": "cloud_architecture_spec.md",
+      "file_type": ".md",
+      "chunk_size_chars": 484,
+      "total_chunks_in_doc": 5
+    }
+  },
+  {
+    "chunk_id": "doc_bc9f2909b38a48c0_c004",
+    "doc_id": "doc_bc9f2909b38a48c0",
+    "filename": "cloud_architecture_spec.md",
+    "chunk_index": 4,
+    "content": "## 5. Disaster Recovery (DR) & Failover\n- Recovery Time Objective (RTO): < 15 minutes.\n- Recovery Point Objective (RPO): < 1 minute.\n- Automated health probes evaluate regional DNS health every 10 seconds; Route 53 failover initiates automatically if 3 consecutive health checks fail.",
+    "token_count": 56,
+    "metadata": {
+      "word_count": 292,
+      "lines_count": 29,
+      "filename": "cloud_architecture_spec.md",
+      "file_type": ".md",
+      "chunk_size_chars": 284,
+      "total_chunks_in_doc": 5
+    }
+  },
+  {
+    "chunk_id": "doc_7099f8a1827c905f_c000",
+    "doc_id": "doc_7099f8a1827c905f",
+    "filename": "quarterly_financial_report.csv",
+    "chunk_index": 0,
+    "content": "Table Overview: quarterly_financial_report.csv containing 8 records across columns: quarter, department, project, allocated_budget_usd, actual_spend_usd, roi_percentage, status. Markdown Representation: | quarter   | department     | project                    |   allocated_budget_usd |   actual_spend_usd |   roi_percentage | status    | |:----------|:---------------|:---------------------------|-----------------------:|-------------------:|-----------------:|:----------|",
+    "token_count": 41,
+    "metadata": {
+      "rows_count": 8,
+      "columns": [
+        "quarter",
+        "department",
+        "project",
+        "allocated_budget_usd",
+        "actual_spend_usd",
+        "roi_percentage",
+        "status"
+      ],
+      "word_count": 334,
+      "filename": "quarterly_financial_report.csv",
+      "file_type": ".csv",
+      "chunk_size_chars": 476,
+      "total_chunks_in_doc": 8
+    }
+  },
+  {
+    "chunk_id": "doc_7099f8a1827c905f_c001",
+    "doc_id": "doc_7099f8a1827c905f",
+    "filename": "quarterly_financial_report.csv",
+    "chunk_index": 1,
+    "content": "| Q1-2025   | Engineering    | GenAI RAG Pipeline         |                 250000 |             215000 |              185 | Completed | | Q1-2025   | Infrastructure | Vector DB & Cloud Cluster  |                 180000 |             172000 |              140 | Completed | | Q1-2025   | Product        | Document Automation Pilot  |                 120000 |             118000 |              210 | Completed |",
+    "token_count": 66,
+    "metadata": {
+      "rows_count": 8,
+      "columns": [
+        "quarter",
+        "department",
+        "project",
+        "allocated_budget_usd",
+        "actual_spend_usd",
+        "roi_percentage",
+        "status"
+      ],
+      "word_count": 334,
+      "filename": "quarterly_financial_report.csv",
+      "file_type": ".csv",
+      "chunk_size_chars": 410,
+      "total_chunks_in_doc": 8
+    }
+  },
+  {
+    "chunk_id": "doc_7099f8a1827c905f_c002",
+    "doc_id": "doc_7099f8a1827c905f",
+    "filename": "quarterly_financial_report.csv",
+    "chunk_index": 2,
+    "content": "| Q2-2025   | Engineering    | Fine-Tuning & Prompt Lab   |                 300000 |             285000 |              195 | Completed | | Q2-2025   | Security       | PII Redaction & Compliance |                 150000 |             142000 |              160 | Completed | | Q3-2025   | Engineering    | Enterprise Multi-Agent RAG |                 450000 |             420000 |              240 | Active    |",
+    "token_count": 66,
+    "metadata": {
+      "rows_count": 8,
+      "columns": [
+        "quarter",
+        "department",
+        "project",
+        "allocated_budget_usd",
+        "actual_spend_usd",
+        "roi_percentage",
+        "status"
+      ],
+      "word_count": 334,
+      "filename": "quarterly_financial_report.csv",
+      "file_type": ".csv",
+      "chunk_size_chars": 410,
+      "total_chunks_in_doc": 8
+    }
+  },
+  {
+    "chunk_id": "doc_7099f8a1827c905f_c003",
+    "doc_id": "doc_7099f8a1827c905f",
+    "filename": "quarterly_financial_report.csv",
+    "chunk_index": 3,
+    "content": "| Q3-2025   | Infrastructure | MLflow MLOps Platform      |                  95000 |              88000 |              175 | Active    | | Q4-2025   | Sales          | Customer Portal AI Copilot |                 350000 |             110000 |              225 | Planned   | Structured Row Records: Row 1 -> quarter: Q1-2025, department: Engineering, project: GenAI RAG Pipeline, allocated_budget_usd: 250000, actual_spend_usd: 215000, roi_percentage: 185, status: Completed",
+    "token_count": 71,
+    "metadata": {
+      "rows_count": 8,
+      "columns": [
+        "quarter",
+        "department",
+        "project",
+        "allocated_budget_usd",
+        "actual_spend_usd",
+        "roi_percentage",
+        "status"
+      ],
+      "word_count": 334,
+      "filename": "quarterly_financial_report.csv",
+      "file_type": ".csv",
+      "chunk_size_chars": 473,
+      "total_chunks_in_doc": 8
+    }
+  },
+  {
+    "chunk_id": "doc_7099f8a1827c905f_c004",
+    "doc_id": "doc_7099f8a1827c905f",
+    "filename": "quarterly_financial_report.csv",
+    "chunk_index": 4,
+    "content": "Row 2 -> quarter: Q1-2025, department: Infrastructure, project: Vector DB & Cloud Cluster, allocated_budget_usd: 180000, actual_spend_usd: 172000, roi_percentage: 140, status: Completed Row 3 -> quarter: Q1-2025, department: Product, project: Document Automation Pilot, allocated_budget_usd: 120000, actual_spend_usd: 118000, roi_percentage: 210, status: Completed",
+    "token_count": 50,
+    "metadata": {
+      "rows_count": 8,
+      "columns": [
+        "quarter",
+        "department",
+        "project",
+        "allocated_budget_usd",
+        "actual_spend_usd",
+        "roi_percentage",
+        "status"
+      ],
+      "word_count": 334,
+      "filename": "quarterly_financial_report.csv",
+      "file_type": ".csv",
+      "chunk_size_chars": 364,
+      "total_chunks_in_doc": 8
+    }
+  },
+  {
+    "chunk_id": "doc_7099f8a1827c905f_c005",
+    "doc_id": "doc_7099f8a1827c905f",
+    "filename": "quarterly_financial_report.csv",
+    "chunk_index": 5,
+    "content": "Row 4 -> quarter: Q2-2025, department: Engineering, project: Fine-Tuning & Prompt Lab, allocated_budget_usd: 300000, actual_spend_usd: 285000, roi_percentage: 195, status: Completed Row 5 -> quarter: Q2-2025, department: Security, project: PII Redaction & Compliance, allocated_budget_usd: 150000, actual_spend_usd: 142000, roi_percentage: 160, status: Completed",
+    "token_count": 50,
+    "metadata": {
+      "rows_count": 8,
+      "columns": [
+        "quarter",
+        "department",
+        "project",
+        "allocated_budget_usd",
+        "actual_spend_usd",
+        "roi_percentage",
+        "status"
+      ],
+      "word_count": 334,
+      "filename": "quarterly_financial_report.csv",
+      "file_type": ".csv",
+      "chunk_size_chars": 362,
+      "total_chunks_in_doc": 8
+    }
+  },
+  {
+    "chunk_id": "doc_7099f8a1827c905f_c006",
+    "doc_id": "doc_7099f8a1827c905f",
+    "filename": "quarterly_financial_report.csv",
+    "chunk_index": 6,
+    "content": "Row 6 -> quarter: Q3-2025, department: Engineering, project: Enterprise Multi-Agent RAG, allocated_budget_usd: 450000, actual_spend_usd: 420000, roi_percentage: 240, status: Active Row 7 -> quarter: Q3-2025, department: Infrastructure, project: MLflow MLOps Platform, allocated_budget_usd: 95000, actual_spend_usd: 88000, roi_percentage: 175, status: Active",
+    "token_count": 47,
+    "metadata": {
+      "rows_count": 8,
+      "columns": [
+        "quarter",
+        "department",
+        "project",
+        "allocated_budget_usd",
+        "actual_spend_usd",
+        "roi_percentage",
+        "status"
+      ],
+      "word_count": 334,
+      "filename": "quarterly_financial_report.csv",
+      "file_type": ".csv",
+      "chunk_size_chars": 357,
+      "total_chunks_in_doc": 8
+    }
+  },
+  {
+    "chunk_id": "doc_7099f8a1827c905f_c007",
+    "doc_id": "doc_7099f8a1827c905f",
+    "filename": "quarterly_financial_report.csv",
+    "chunk_index": 7,
+    "content": "Row 8 -> quarter: Q4-2025, department: Sales, project: Customer Portal AI Copilot, allocated_budget_usd: 350000, actual_spend_usd: 110000, roi_percentage: 225, status: Planned",
+    "token_count": 25,
+    "metadata": {
+      "rows_count": 8,
+      "columns": [
+        "quarter",
+        "department",
+        "project",
+        "allocated_budget_usd",
+        "actual_spend_usd",
+        "roi_percentage",
+        "status"
+      ],
+      "word_count": 334,
+      "filename": "quarterly_financial_report.csv",
+      "file_type": ".csv",
+      "chunk_size_chars": 175,
+      "total_chunks_in_doc": 8
+    }
+  }
+]

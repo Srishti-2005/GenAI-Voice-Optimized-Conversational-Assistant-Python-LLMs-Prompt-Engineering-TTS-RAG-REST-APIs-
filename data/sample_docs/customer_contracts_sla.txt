@@ -1,0 +1,29 @@
+MASTER SERVICE AGREEMENT - SERVICE LEVEL ADDENDUM (SLA)
+Document ID: LEGAL-SLA-2025
+Applicable Tier: Platinum & Enterprise Tier Customers
+
+1. SYSTEM UPTIME GUARANTEE
+The Service Provider guarantees monthly platform uptime of 99.95% ("Uptime Commitment"), excluding scheduled maintenance windows announced at least 72 hours in advance.
+
+2. SERVICE CREDIT CALCULATION
+If platform uptime falls below the commitment during any calendar month, the Customer shall be entitled to the following SLA credits:
+- 99.0% to 99.94% Uptime: 10% credit of monthly billing fees.
+- 95.0% to 98.99% Uptime: 25% credit of monthly billing fees.
+- Below 95.0% Uptime: 50% credit of monthly billing fees and right to immediate contract termination without penalty.
+
+3. INCIDENT RESPONSE TIERS & SEVERITY LEVELS
+- Severity 1 (Critical Outage - Platform Inaccessible):
+  * Initial Response Time: Under 15 minutes (24/7/365)
+  * Status Update Interval: Every 30 minutes
+  * Target Resolution Time: Under 4 hours
+- Severity 2 (Major Degradation - Core RAG Retrieval Impaired):
+  * Initial Response Time: Under 1 hour (24/7/365)
+  * Status Update Interval: Every 2 hours
+  * Target Resolution Time: Under 8 hours
+- Severity 3 (Minor Defect - Administrative / Reporting UI Glitch):
+  * Initial Response Time: Under 4 business hours
+  * Target Resolution Time: Under 48 business hours
+
+4. DATA PORTABILITY & TERMINATION
+Upon written notice of contract expiration or termination, Service Provider shall export all vectorized embeddings and raw customer documents in standard JSON/Parquet format within 14 business days.
+All customer tenant data on primary databases will be permanently purged within 30 days of verified handoff.

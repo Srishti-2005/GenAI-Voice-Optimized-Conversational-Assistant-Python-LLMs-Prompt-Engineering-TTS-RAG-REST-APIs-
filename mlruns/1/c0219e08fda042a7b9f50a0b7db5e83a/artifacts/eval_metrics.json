@@ -1,0 +1,12 @@
+{
+  "avg_similarity": 0.2894,
+  "context_relevance": 0.8571,
+  "mrr_score": 1.0,
+  "precision_at_k": 1.0,
+  "citation_coverage": 1.0,
+  "details": {
+    "retrieved_count": 4,
+    "relevant_count": 4,
+    "query_terms_count": 7
+  }
+}

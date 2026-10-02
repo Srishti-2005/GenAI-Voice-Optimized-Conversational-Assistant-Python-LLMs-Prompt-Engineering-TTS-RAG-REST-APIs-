@@ -1,0 +1,31 @@
+# Global Enterprise AI Governance & Security Policy (v3.2)
+Document ID: SEC-POL-2025-09
+Classification: Internal Confidential
+Effective Date: January 1, 2025
+Review Cycle: Annual
+
+1. PURPOSE & SCOPE
+This document outlines mandatory guidelines for utilizing Generative Artificial Intelligence (GenAI), Large Language Models (LLMs), and automated data retrieval systems across all company business units and engineering teams.
+
+2. APPROVED LLM & API USAGE
+- All external API calls to public LLMs (e.g., OpenAI, Anthropic, Google Cloud Vertex AI) must route through the enterprise API Gateway proxy.
+- Direct connection from client devices or non-isolated VPCs to external model endpoints is strictly prohibited.
+- Zero Data Retention (ZDR) agreements must be active for all proprietary and customer-facing interactions.
+- Customer Personally Identifiable Information (PII) must be scrubbed using automated redaction pipelines prior to vector embedding generation.
+
+3. DATA CLASSIFICATION AND VECTOR STORAGE
+- Tier 1 (Public Data): Can be stored in shared vector indexes without tenant-level isolation.
+- Tier 2 (Internal Business Data): Must use role-based access control (RBAC) filtering at retrieval time.
+- Tier 3 (Strictly Confidential / PII): Must utilize encrypted vector databases with customer-managed encryption keys (CMEK) and strict database-level row access policies.
+
+4. MODEL RETRIEVAL-AUGMENTED GENERATION (RAG) COMPLIANCE
+- All RAG responses must provide verbatim source citations referencing document ID, chunk index, and document title.
+- Retrieval queries must maintain an audit log in the centralized SQL telemetry database for a minimum retention period of 180 days.
+- Hallucination prevention: Any query whose top-k vector similarity score falls below 0.35 must trigger a fallback disclaimer: "Insufficient enterprise context found to answer this query with high confidence."
+
+5. EXPERIMENTATION AND PROMPT TRACKING
+- All production prompt changes, temperature adjustments, and chunking parameter alterations must be version-controlled and tracked in MLflow experiments.
+- Minimum acceptable retrieval recall metric for deployment to production is Recall@5 >= 0.85.
+
+6. CONTACTS & ESCALATIONS
+For policy exceptions or new AI model onboarding, submit a ticket to security-governance@enterprise.internal or contact the Chief Information Security Officer (CISO).

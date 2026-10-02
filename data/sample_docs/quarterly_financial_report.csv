@@ -1,0 +1,9 @@
+quarter,department,project,allocated_budget_usd,actual_spend_usd,roi_percentage,status
+Q1-2025,Engineering,GenAI RAG Pipeline,250000,215000,185,Completed
+Q1-2025,Infrastructure,Vector DB & Cloud Cluster,180000,172000,140,Completed
+Q1-2025,Product,Document Automation Pilot,120000,118000,210,Completed
+Q2-2025,Engineering,Fine-Tuning & Prompt Lab,300000,285000,195,Completed
+Q2-2025,Security,PII Redaction & Compliance,150000,142000,160,Completed
+Q3-2025,Engineering,Enterprise Multi-Agent RAG,450000,420000,240,Active
+Q3-2025,Infrastructure,MLflow MLOps Platform,95000,88000,175,Active
+Q4-2025,Sales,Customer Portal AI Copilot,350000,110000,225,Planned
