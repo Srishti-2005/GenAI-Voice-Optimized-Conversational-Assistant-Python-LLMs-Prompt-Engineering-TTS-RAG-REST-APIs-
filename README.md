@@ -86,7 +86,10 @@ Open [http://localhost:8501](http://localhost:8501) to explore:
 - **MLflow Experiment Tracking**: Run history, latency graphs, and parameter comparisons.
 - **Architecture & Specs**: Interactive pipeline diagram and configurations.
 
-### 4. Launch the MLflow Dashboard
+### 4. Deploy to Render
+Create a new Blueprint in the [Render Dashboard](https://dashboard.render.com/blueprints) and select this GitHub repository. Render reads `render.yaml` and deploys the Streamlit app on the free web service plan. The free service uses an ephemeral filesystem, so uploaded documents and generated tracking data are lost on redeploy; use persistent storage for data that must survive.
+
+### 5. Launch the MLflow Dashboard
 Explore the full interactive MLflow dashboard:
 ```bash
 python -m mlflow ui --backend-store-uri sqlite:///data/storage/mlflow.db --port 5000
